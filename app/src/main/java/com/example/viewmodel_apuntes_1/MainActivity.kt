@@ -10,6 +10,8 @@ import com.example.viewmodel_apuntes_1.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding : ActivityMainBinding
+    // Podemos crear aqui tambien un lateinit del model y luego instanciarlo dentro del 
+    // private lateinit var model : MainActivityViewModel
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
