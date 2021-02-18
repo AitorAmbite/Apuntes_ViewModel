@@ -9,6 +9,7 @@ import androidx.lifecycle.ViewModelProvider
 import com.example.viewmodel_apuntes_1.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
+    // aqui creamos la variable que tendra el binding
     private lateinit var binding : ActivityMainBinding
     // Podemos crear aqui tambien un lateinit del model y luego instanciarlo dentro del 
     // private lateinit var model : MainActivityViewModel
